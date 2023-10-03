@@ -1,5 +1,10 @@
-produto1 = float(input("primeiro preço "))
-produto2 = float(input("segundo preço "))
-produto3 = float(input("terceiro preço "))
+produto1 = float(input("preço do produto 1: "))
+produto2 = float(input("preço do produto 2: "))
+produto3 = float(input("preço do produto 3: "))
 
-if 
+if produto1 < produto2 and produto1 < produto3:
+    print("Compre o produto1")
+elif produto2 < produto1 and produto2 < produto3:
+    print("Compre o produto2")
+elif produto3 < produto1 and produto3 < produto2:
+    print("Compre o produto3")
