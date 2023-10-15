@@ -1,6 +1,6 @@
-turno = str(input("Em qual turno você estuda? "))
+turno = input("[M] - Manhã\n[V] - Tarde\n[N] - Noite\nEm qual turno você estuda? ")
 
-if turno in "mM":
+if turno == "M" or turno == "m" or turno == "manha":
     print("Bom dia!")
 elif turno == "V":
     print("Boa tarde!")
