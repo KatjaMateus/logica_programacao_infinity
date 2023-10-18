@@ -9,7 +9,7 @@ while True:
 
 while True:
     idade = int(input("Digite a idade: "))
-    if idade >= 0 or idade <= 150:
+    if idade >= 0 and idade <= 150:
         print(idade)
         break
     else:
