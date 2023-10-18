@@ -3,4 +3,4 @@ palavra = "kampaaja"
 for letra in palavra:
     if letra in "aeiou":
         cont += 1
-        print(cont)
+print(cont)
