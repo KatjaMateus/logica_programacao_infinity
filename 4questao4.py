@@ -1,19 +1,18 @@
-Apop = 80000
-Ataxa = 1.03
-Acres = Apop * Ataxa
-popA_ano = Acres * Ataxa
+ano = 0
+popA = 80000
+taxaA = 1.03
+popB = 200000
+taxaB = 1.015
+    
+while popA < popB:
+    popA *= taxaA
+    popB *= taxaB
+    ano += 1
 
+    '''print(f"Ano {ano}")
+    print(f"População A {popA}")
+    print(f"Populaçã B {popB}")'''
 
-Bpop = 200000
-Btaxa = 1.015
-Bcres = Bpop * Btaxa
-popB_ano = Bcres * Btaxa
-
-while True:
-    popA_ano += 1
-    popB_ano += 1
-    if popA_ano == popB_ano:
-        break
-    print(popA_ano)
+print(f"Levarão {ano} para a população do país A ultrapassar da população do país B")
     
 
